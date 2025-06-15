@@ -212,5 +212,8 @@ include vendor/aosp/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
+# VINTF checks
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # Fonts
 include vendor/aosp/config/fonts.mk
