@@ -3,7 +3,7 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 
 # GMS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.com.google.clientidbase=android-google
-$(call inherit-product, vendor/gms/setup-gms.mk)
+# $(call inherit-product, vendor/gms/setup-gms.mk)
 
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
